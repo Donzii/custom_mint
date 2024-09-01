@@ -1,0 +1,48 @@
+# -- Conky settings -- #
+update_interval 0.25
+
+cpu_avg_samples 5
+net_avg_samples 5
+diskio_avg_samples 5
+
+override_utf8_locale yes
+
+double_buffer yes
+no_buffers yes
+
+text_buffer_size 2048
+imlib_cache_size 0
+
+own_window_class Conky
+own_window true
+own_window_type desktop
+own_window_argb_visual yes
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+alignment middle_right
+border_inner_margin 0
+border_outer_margin 0
+
+minimum_size 310 900
+gap_x 30
+gap_y 0
+
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+
+use_xft yes
+xftfont Santana:size=8
+xftalpha 0.8
+
+uppercase no
+short_units yes
+
+default_color FFFFFF
+
+lua_load /home/bee/.conky/donzi_v3/monitor.lua
+lua_draw_hook_pre main
+
+TEXT
