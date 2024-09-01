@@ -1,0 +1,28 @@
+[plugins]
+active-plugins=['sort', 'joinlines', 'bracketcompletion', 'textsize', 'open-uri-context-menu', 'time', 'modelines', 'trailsave', 'filebrowser', 'spell', 'docinfo']
+
+[plugins/filebrowser/on-load]
+root='file:///'
+tree-view=true
+virtual-root='file:///media/werkstatt/Ventoy/YUMI/Mint'
+
+[preferences/editor]
+auto-save=true
+bracket-matching=true
+create-backup-copy=true
+display-line-numbers=true
+highlight-current-line=true
+scheme='oblivion'
+wrap-mode='word'
+
+[preferences/ui]
+minimap-visible=true
+side-panel-visible=true
+statusbar-visible=true
+
+[state/window]
+bottom-panel-size=140
+side-panel-active-page=-1725528271
+side-panel-size=200
+size=(1557, 918)
+state=128
