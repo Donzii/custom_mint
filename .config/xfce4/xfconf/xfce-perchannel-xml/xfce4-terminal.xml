@@ -2,7 +2,7 @@
 
 <channel name="xfce4-terminal" version="1.0">
   <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_TRANSPARENT"/>
-  <property name="background-darkness" type="double" value="0.80000000000000004"/>
+  <property name="background-darkness" type="double" value="0.90000000000000002"/>
   <property name="color-background" type="string" value="#3c953c953c95"/>
   <property name="color-cursor" type="string" value="#867f81c281c2"/>
   <property name="color-palette" type="string" value="#000000;#cc0000;#4e9a06;#c4a000;#3465a4;#75507b;#06989a;#d3d7cf;#555753;#ef2929;#8ae234;#fce94f;#739fcf;#ad7fa8;#34e2e2;#eeeeec"/>
@@ -13,14 +13,15 @@
   <property name="misc-menubar-default" type="bool" value="true"/>
   <property name="scrolling-unlimited" type="bool" value="true"/>
   <property name="misc-copy-on-select" type="bool" value="true"/>
-  <property name="misc-default-geometry" type="string" value="144x30"/>
-  <property name="misc-slim-tabs" type="bool" value="true"/>
+  <property name="misc-default-geometry" type="string" value="144x32"/>
   <property name="misc-toolbar-default" type="bool" value="true"/>
+  <property name="misc-slim-tabs" type="bool" value="true"/>
   <property name="shortcuts-no-mnemonics" type="bool" value="true"/>
   <property name="shortcuts-no-menukey" type="bool" value="true"/>
-  <property name="misc-mouse-autohide" type="bool" value="true"/>
   <property name="misc-middle-click-opens-uri" type="bool" value="true"/>
+  <property name="misc-mouse-autohide" type="bool" value="true"/>
   <property name="misc-new-tab-adjacent" type="bool" value="true"/>
   <property name="misc-bell-urgent" type="bool" value="true"/>
   <property name="misc-right-click-action" type="string" value="TERMINAL_RIGHT_CLICK_ACTION_PASTE_CLIPBOARD"/>
+  <property name="misc-confirm-close" type="bool" value="false"/>
 </channel>
